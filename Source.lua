@@ -273,7 +273,7 @@ function Compactio.Render(settings)
                 page.BackgroundTransparency = 1
                 page.ScrollBarImageTransparency = 1 
                 page.Position = UDim2.fromOffset(0,54)
-                page.Size = UDim2.fromScale(1,1) - UDim2.fromOffset(0,55)
+                page.Size = UDim2.fromScale(1,1) - UDim2.fromOffset(0,65)
                 page.BorderSizePixel = 0
                 page.CanvasSize = UDim2.fromScale(0,0)
                 --#region PAGE_LIST 
