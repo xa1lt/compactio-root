@@ -743,7 +743,7 @@ function Compactio.Render(settings)
                                     dropItem.Font = Enum.Font.Gotham
                                     dropItem.TextColor3 = Themes.Dark.Elements_TextColor
                                     dropItem.AutoButtonColor = false 
-                                    
+                                 
                                     local stroke = Stroke(dropItem,Themes.Dark.Accent)
                                     local function enter()
                                         TweenService:Create(stroke,TweenInfo.new(.2),{ Transparency = 0 }):Play()
@@ -800,6 +800,7 @@ function Compactio.Render(settings)
                                             dropItem.Text = Value
                                             dropItem.BackgroundColor3 = Themes.Dark.Elements_Overlay
                                             dropItem.TextSize = 12 
+					    dropItem.Name = "dropItem"
                                             dropItem.Font = Enum.Font.Gotham
                                             dropItem.TextColor3 = Themes.Dark.Elements_TextColor
                                             dropItem.AutoButtonColor = false 
